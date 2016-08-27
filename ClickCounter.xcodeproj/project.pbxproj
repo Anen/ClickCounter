@@ -14,21 +14,15 @@
 		0B0A91B0191521D900B7999D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A91AF191521D900B7999D /* AppDelegate.m */; };
 		0B0A91B3191521D900B7999D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A91B1191521D900B7999D /* MainMenu.xib */; };
 		0B0A91B5191521D900B7999D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A91B4191521D900B7999D /* Images.xcassets */; };
-		0B0A91BC191521DA00B7999D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0A91BB191521DA00B7999D /* XCTest.framework */; };
-		0B0A91BD191521DA00B7999D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0A919C191521D900B7999D /* Cocoa.framework */; };
-		0B0A91C5191521DA00B7999D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A91C3191521DA00B7999D /* InfoPlist.strings */; };
-		0B0A91C7191521DA00B7999D /* ClickCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A91C6191521DA00B7999D /* ClickCounterTests.m */; };
+		0B1C7C131C352A120093F4A1 /* bat_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C7C101C352A120093F4A1 /* bat_clicked.png */; };
+		0B1C7C141C352A120093F4A1 /* bat_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C7C111C352A120093F4A1 /* bat_disabled.png */; };
+		0B1C7C151C352A120093F4A1 /* bat_waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C7C121C352A120093F4A1 /* bat_waiting.png */; };
+		0B39173B1BB89A6000DFAA3E /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B39173A1BB89A6000DFAA3E /* LaunchAtLoginController.m */; };
+		0B5DB4561BC0663700C35350 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B5DB4551BC0663700C35350 /* PreferencesWindow.xib */; };
+		0B5DB4591BC143C500C35350 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DB4581BC143C500C35350 /* PreferencesWindowController.m */; };
+		0B73454F1C53051A00313F79 /* bat_no_access.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B73454E1C53051A00313F79 /* bat_no_access.png */; };
+		0B8C15121C36A0C800828858 /* UserDefaultsWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C15111C36A0C800828858 /* UserDefaultsWrapper.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0B0A91BE191521DA00B7999D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B0A9191191521D900B7999D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B0A9198191521D900B7999D;
-			remoteInfo = ClickCounter;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0B0A9199191521D900B7999D /* ClickCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +39,18 @@
 		0B0A91AF191521D900B7999D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0B0A91B2191521D900B7999D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0B0A91B4191521D900B7999D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0B0A91BA191521DA00B7999D /* ClickCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0A91BB191521DA00B7999D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		0B0A91C2191521DA00B7999D /* ClickCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickCounterTests-Info.plist"; sourceTree = "<group>"; };
-		0B0A91C4191521DA00B7999D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0B0A91C6191521DA00B7999D /* ClickCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickCounterTests.m; sourceTree = "<group>"; };
+		0B1C7C101C352A120093F4A1 /* bat_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_clicked.png; path = img/bat_clicked.png; sourceTree = "<group>"; };
+		0B1C7C111C352A120093F4A1 /* bat_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_disabled.png; path = img/bat_disabled.png; sourceTree = "<group>"; };
+		0B1C7C121C352A120093F4A1 /* bat_waiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_waiting.png; path = img/bat_waiting.png; sourceTree = "<group>"; };
+		0B3917391BB89A6000DFAA3E /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		0B39173A1BB89A6000DFAA3E /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		0B5DB4551BC0663700C35350 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		0B5DB4571BC143C500C35350 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		0B5DB4581BC143C500C35350 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		0B73454E1C53051A00313F79 /* bat_no_access.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_no_access.png; path = img/bat_no_access.png; sourceTree = "<group>"; };
+		0B8C15101C36A0C800828858 /* UserDefaultsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsWrapper.h; sourceTree = "<group>"; };
+		0B8C15111C36A0C800828858 /* UserDefaultsWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,23 +62,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B0A91B7191521DA00B7999D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B0A91BD191521DA00B7999D /* Cocoa.framework in Frameworks */,
-				0B0A91BC191521DA00B7999D /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0B0A9190191521D900B7999D = {
 			isa = PBXGroup;
 			children = (
+				0B1C7C0F1C3529FE0093F4A1 /* img */,
 				0B0A91A2191521D900B7999D /* ClickCounter */,
-				0B0A91C0191521DA00B7999D /* ClickCounterTests */,
 				0B0A919B191521D900B7999D /* Frameworks */,
 				0B0A919A191521D900B7999D /* Products */,
 			);
@@ -87,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				0B0A9199191521D900B7999D /* ClickCounter.app */,
-				0B0A91BA191521DA00B7999D /* ClickCounterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,7 +108,14 @@
 			children = (
 				0B0A91AE191521D900B7999D /* AppDelegate.h */,
 				0B0A91AF191521D900B7999D /* AppDelegate.m */,
+				0B5DB4571BC143C500C35350 /* PreferencesWindowController.h */,
+				0B5DB4581BC143C500C35350 /* PreferencesWindowController.m */,
+				0B8C15101C36A0C800828858 /* UserDefaultsWrapper.h */,
+				0B8C15111C36A0C800828858 /* UserDefaultsWrapper.m */,
 				0B0A91B1191521D900B7999D /* MainMenu.xib */,
+				0B5DB4551BC0663700C35350 /* PreferencesWindow.xib */,
+				0B3917391BB89A6000DFAA3E /* LaunchAtLoginController.h */,
+				0B39173A1BB89A6000DFAA3E /* LaunchAtLoginController.m */,
 				0B0A91B4191521D900B7999D /* Images.xcassets */,
 				0B0A91A3191521D900B7999D /* Supporting Files */,
 			);
@@ -136,22 +134,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0B0A91C0191521DA00B7999D /* ClickCounterTests */ = {
+		0B1C7C0F1C3529FE0093F4A1 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				0B0A91C6191521DA00B7999D /* ClickCounterTests.m */,
-				0B0A91C1191521DA00B7999D /* Supporting Files */,
+				0B1C7C101C352A120093F4A1 /* bat_clicked.png */,
+				0B1C7C111C352A120093F4A1 /* bat_disabled.png */,
+				0B73454E1C53051A00313F79 /* bat_no_access.png */,
+				0B1C7C121C352A120093F4A1 /* bat_waiting.png */,
 			);
-			path = ClickCounterTests;
-			sourceTree = "<group>";
-		};
-		0B0A91C1191521DA00B7999D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B0A91C2191521DA00B7999D /* ClickCounterTests-Info.plist */,
-				0B0A91C3191521DA00B7999D /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,37 +165,17 @@
 			productReference = 0B0A9199191521D900B7999D /* ClickCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B0A91B9191521DA00B7999D /* ClickCounterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B0A91CD191521DA00B7999D /* Build configuration list for PBXNativeTarget "ClickCounterTests" */;
-			buildPhases = (
-				0B0A91B6191521DA00B7999D /* Sources */,
-				0B0A91B7191521DA00B7999D /* Frameworks */,
-				0B0A91B8191521DA00B7999D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B0A91BF191521DA00B7999D /* PBXTargetDependency */,
-			);
-			name = ClickCounterTests;
-			productName = ClickCounterTests;
-			productReference = 0B0A91BA191521DA00B7999D /* ClickCounterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0B0A9191191521D900B7999D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Bastien;
-				TargetAttributes = {
-					0B0A91B9191521DA00B7999D = {
-						TestTargetID = 0B0A9198191521D900B7999D;
-					};
-				};
 			};
 			buildConfigurationList = 0B0A9194191521D900B7999D /* Build configuration list for PBXProject "ClickCounter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,7 +191,6 @@
 			projectRoot = "";
 			targets = (
 				0B0A9198191521D900B7999D /* ClickCounter */,
-				0B0A91B9191521DA00B7999D /* ClickCounterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,18 +200,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5DB4561BC0663700C35350 /* PreferencesWindow.xib in Resources */,
 				0B0A91A7191521D900B7999D /* InfoPlist.strings in Resources */,
+				0B1C7C131C352A120093F4A1 /* bat_clicked.png in Resources */,
 				0B0A91B5191521D900B7999D /* Images.xcassets in Resources */,
+				0B1C7C151C352A120093F4A1 /* bat_waiting.png in Resources */,
+				0B73454F1C53051A00313F79 /* bat_no_access.png in Resources */,
 				0B0A91AD191521D900B7999D /* Credits.rtf in Resources */,
+				0B1C7C141C352A120093F4A1 /* bat_disabled.png in Resources */,
 				0B0A91B3191521D900B7999D /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B0A91B8191521DA00B7999D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B0A91C5191521DA00B7999D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,28 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B39173B1BB89A6000DFAA3E /* LaunchAtLoginController.m in Sources */,
 				0B0A91B0191521D900B7999D /* AppDelegate.m in Sources */,
+				0B5DB4591BC143C500C35350 /* PreferencesWindowController.m in Sources */,
+				0B8C15121C36A0C800828858 /* UserDefaultsWrapper.m in Sources */,
 				0B0A91A9191521D900B7999D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B0A91B6191521DA00B7999D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B0A91C7191521DA00B7999D /* ClickCounterTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0B0A91BF191521DA00B7999D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B0A9198191521D900B7999D /* ClickCounter */;
-			targetProxy = 0B0A91BE191521DA00B7999D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0B0A91A5191521D900B7999D /* InfoPlist.strings */ = {
@@ -300,14 +254,6 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		0B0A91C3191521DA00B7999D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B0A91C4191521DA00B7999D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -328,6 +274,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -389,6 +336,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClickCounter/ClickCounter-Prefix.pch";
 				INFOPLIST_FILE = "ClickCounter/ClickCounter-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.lebayle.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,48 +350,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClickCounter/ClickCounter-Prefix.pch";
 				INFOPLIST_FILE = "ClickCounter/ClickCounter-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.lebayle.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		0B0A91CE191521DA00B7999D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClickCounter.app/Contents/MacOS/ClickCounter";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ClickCounter/ClickCounter-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ClickCounterTests/ClickCounterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		0B0A91CF191521DA00B7999D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClickCounter.app/Contents/MacOS/ClickCounter";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ClickCounter/ClickCounter-Prefix.pch";
-				INFOPLIST_FILE = "ClickCounterTests/ClickCounterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -466,14 +375,7 @@
 				0B0A91CC191521DA00B7999D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0B0A91CD191521DA00B7999D /* Build configuration list for PBXNativeTarget "ClickCounterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B0A91CE191521DA00B7999D /* Debug */,
-				0B0A91CF191521DA00B7999D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

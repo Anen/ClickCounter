@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#include "PreferencesWindowController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (strong) IBOutlet NSMenu* theMenu;
+@property (strong) IBOutlet NSMenuItem* theMenuLeftClickCounter;
+@property (strong) IBOutlet NSMenuItem* theMenuRightClickCounter;
+@property (strong) IBOutlet NSMenuItem* theMenuKeyCounter;
+
+-(IBAction)showPreferencesWindow:(id)sender;
 
 @end
