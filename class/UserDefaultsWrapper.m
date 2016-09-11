@@ -11,7 +11,7 @@
 #import "LaunchAtLoginController.h"
 
 @implementation UserDefaultsWrapper
-
+    
 NSUserDefaults* m_Prefs;
 BOOL m_DisplayGlobal;
 BOOL m_LaunchAtStartup;

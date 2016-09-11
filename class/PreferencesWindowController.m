@@ -9,7 +9,7 @@
 #import "PreferencesWindowController.h"
 
 #import "LaunchAtLoginController.h"
-#import "UserDefaultsWrapper.h"
+#import "class/UserDefaultsWrapper.h"
 
 @interface PreferencesWindowController ()
 

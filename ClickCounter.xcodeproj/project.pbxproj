@@ -11,17 +11,17 @@
 		0B0A91A7191521D900B7999D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A91A5191521D900B7999D /* InfoPlist.strings */; };
 		0B0A91A9191521D900B7999D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A91A8191521D900B7999D /* main.m */; };
 		0B0A91AD191521D900B7999D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A91AB191521D900B7999D /* Credits.rtf */; };
-		0B0A91B0191521D900B7999D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A91AF191521D900B7999D /* AppDelegate.m */; };
 		0B0A91B3191521D900B7999D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A91B1191521D900B7999D /* MainMenu.xib */; };
 		0B0A91B5191521D900B7999D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A91B4191521D900B7999D /* Images.xcassets */; };
 		0B1C7C131C352A120093F4A1 /* bat_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C7C101C352A120093F4A1 /* bat_clicked.png */; };
 		0B1C7C141C352A120093F4A1 /* bat_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C7C111C352A120093F4A1 /* bat_disabled.png */; };
 		0B1C7C151C352A120093F4A1 /* bat_waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C7C121C352A120093F4A1 /* bat_waiting.png */; };
-		0B39173B1BB89A6000DFAA3E /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B39173A1BB89A6000DFAA3E /* LaunchAtLoginController.m */; };
 		0B5DB4561BC0663700C35350 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B5DB4551BC0663700C35350 /* PreferencesWindow.xib */; };
-		0B5DB4591BC143C500C35350 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DB4581BC143C500C35350 /* PreferencesWindowController.m */; };
-		0B73454F1C53051A00313F79 /* bat_no_access.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B73454E1C53051A00313F79 /* bat_no_access.png */; };
-		0B8C15121C36A0C800828858 /* UserDefaultsWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C15111C36A0C800828858 /* UserDefaultsWrapper.m */; };
+		0B9339071D85FDB600B40A8D /* class in Resources */ = {isa = PBXBuildFile; fileRef = 0B9339061D85FDB600B40A8D /* class */; };
+		0B9339171D860B7100B40A8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9339121D860B7100B40A8D /* AppDelegate.m */; };
+		0B9339181D860B7100B40A8D /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9339141D860B7100B40A8D /* PreferencesWindowController.m */; };
+		0B9339191D860B7100B40A8D /* UserDefaultsWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9339161D860B7100B40A8D /* UserDefaultsWrapper.m */; };
+		0B93391D1D860B8200B40A8D /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B93391C1D860B8200B40A8D /* LaunchAtLoginController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,22 +35,22 @@
 		0B0A91A8191521D900B7999D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0B0A91AA191521D900B7999D /* ClickCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClickCounter-Prefix.pch"; sourceTree = "<group>"; };
 		0B0A91AC191521D900B7999D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0B0A91AE191521D900B7999D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0B0A91AF191521D900B7999D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0B0A91B2191521D900B7999D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0B0A91B4191521D900B7999D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0B0A91BB191521DA00B7999D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0B1C7C101C352A120093F4A1 /* bat_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_clicked.png; path = img/bat_clicked.png; sourceTree = "<group>"; };
 		0B1C7C111C352A120093F4A1 /* bat_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_disabled.png; path = img/bat_disabled.png; sourceTree = "<group>"; };
 		0B1C7C121C352A120093F4A1 /* bat_waiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_waiting.png; path = img/bat_waiting.png; sourceTree = "<group>"; };
-		0B3917391BB89A6000DFAA3E /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
-		0B39173A1BB89A6000DFAA3E /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
 		0B5DB4551BC0663700C35350 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
-		0B5DB4571BC143C500C35350 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
-		0B5DB4581BC143C500C35350 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
-		0B73454E1C53051A00313F79 /* bat_no_access.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bat_no_access.png; path = img/bat_no_access.png; sourceTree = "<group>"; };
-		0B8C15101C36A0C800828858 /* UserDefaultsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsWrapper.h; sourceTree = "<group>"; };
-		0B8C15111C36A0C800828858 /* UserDefaultsWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsWrapper.m; sourceTree = "<group>"; };
+		0B9339061D85FDB600B40A8D /* class */ = {isa = PBXFileReference; lastKnownFileType = folder; name = class; path = /Users/bastien/Dropbox/Private/GitHub/ClickCounter/class; sourceTree = "<absolute>"; };
+		0B9339111D860B7100B40A8D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B9339121D860B7100B40A8D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B9339131D860B7100B40A8D /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		0B9339141D860B7100B40A8D /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		0B9339151D860B7100B40A8D /* UserDefaultsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsWrapper.h; sourceTree = "<group>"; };
+		0B9339161D860B7100B40A8D /* UserDefaultsWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsWrapper.m; sourceTree = "<group>"; };
+		0B93391B1D860B8200B40A8D /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		0B93391C1D860B8200B40A8D /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +68,17 @@
 		0B0A9190191521D900B7999D = {
 			isa = PBXGroup;
 			children = (
+				0B93391A1D860B8200B40A8D /* incl */,
+				0B9339101D860B7100B40A8D /* class */,
 				0B1C7C0F1C3529FE0093F4A1 /* img */,
 				0B0A91A2191521D900B7999D /* ClickCounter */,
 				0B0A919B191521D900B7999D /* Frameworks */,
 				0B0A919A191521D900B7999D /* Products */,
 			);
+			indentWidth = 3;
 			sourceTree = "<group>";
+			tabWidth = 3;
+			wrapsLines = 0;
 		};
 		0B0A919A191521D900B7999D /* Products */ = {
 			isa = PBXGroup;
@@ -106,16 +111,8 @@
 		0B0A91A2191521D900B7999D /* ClickCounter */ = {
 			isa = PBXGroup;
 			children = (
-				0B0A91AE191521D900B7999D /* AppDelegate.h */,
-				0B0A91AF191521D900B7999D /* AppDelegate.m */,
-				0B5DB4571BC143C500C35350 /* PreferencesWindowController.h */,
-				0B5DB4581BC143C500C35350 /* PreferencesWindowController.m */,
-				0B8C15101C36A0C800828858 /* UserDefaultsWrapper.h */,
-				0B8C15111C36A0C800828858 /* UserDefaultsWrapper.m */,
 				0B0A91B1191521D900B7999D /* MainMenu.xib */,
 				0B5DB4551BC0663700C35350 /* PreferencesWindow.xib */,
-				0B3917391BB89A6000DFAA3E /* LaunchAtLoginController.h */,
-				0B39173A1BB89A6000DFAA3E /* LaunchAtLoginController.m */,
 				0B0A91B4191521D900B7999D /* Images.xcassets */,
 				0B0A91A3191521D900B7999D /* Supporting Files */,
 			);
@@ -139,10 +136,31 @@
 			children = (
 				0B1C7C101C352A120093F4A1 /* bat_clicked.png */,
 				0B1C7C111C352A120093F4A1 /* bat_disabled.png */,
-				0B73454E1C53051A00313F79 /* bat_no_access.png */,
 				0B1C7C121C352A120093F4A1 /* bat_waiting.png */,
 			);
 			name = img;
+			sourceTree = "<group>";
+		};
+		0B9339101D860B7100B40A8D /* class */ = {
+			isa = PBXGroup;
+			children = (
+				0B9339111D860B7100B40A8D /* AppDelegate.h */,
+				0B9339121D860B7100B40A8D /* AppDelegate.m */,
+				0B9339131D860B7100B40A8D /* PreferencesWindowController.h */,
+				0B9339141D860B7100B40A8D /* PreferencesWindowController.m */,
+				0B9339151D860B7100B40A8D /* UserDefaultsWrapper.h */,
+				0B9339161D860B7100B40A8D /* UserDefaultsWrapper.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		0B93391A1D860B8200B40A8D /* incl */ = {
+			isa = PBXGroup;
+			children = (
+				0B93391B1D860B8200B40A8D /* LaunchAtLoginController.h */,
+				0B93391C1D860B8200B40A8D /* LaunchAtLoginController.m */,
+			);
+			path = incl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +223,8 @@
 				0B1C7C131C352A120093F4A1 /* bat_clicked.png in Resources */,
 				0B0A91B5191521D900B7999D /* Images.xcassets in Resources */,
 				0B1C7C151C352A120093F4A1 /* bat_waiting.png in Resources */,
-				0B73454F1C53051A00313F79 /* bat_no_access.png in Resources */,
 				0B0A91AD191521D900B7999D /* Credits.rtf in Resources */,
+				0B9339071D85FDB600B40A8D /* class in Resources */,
 				0B1C7C141C352A120093F4A1 /* bat_disabled.png in Resources */,
 				0B0A91B3191521D900B7999D /* MainMenu.xib in Resources */,
 			);
@@ -219,11 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B39173B1BB89A6000DFAA3E /* LaunchAtLoginController.m in Sources */,
-				0B0A91B0191521D900B7999D /* AppDelegate.m in Sources */,
-				0B5DB4591BC143C500C35350 /* PreferencesWindowController.m in Sources */,
-				0B8C15121C36A0C800828858 /* UserDefaultsWrapper.m in Sources */,
+				0B9339191D860B7100B40A8D /* UserDefaultsWrapper.m in Sources */,
+				0B93391D1D860B8200B40A8D /* LaunchAtLoginController.m in Sources */,
 				0B0A91A9191521D900B7999D /* main.m in Sources */,
+				0B9339181D860B7100B40A8D /* PreferencesWindowController.m in Sources */,
+				0B9339171D860B7100B40A8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,10 +349,13 @@
 		0B0A91CB191521DA00B7999D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClickCounter/ClickCounter-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SRCROOT}";
 				INFOPLIST_FILE = "ClickCounter/ClickCounter-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.lebayle.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -345,10 +366,13 @@
 		0B0A91CC191521DA00B7999D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClickCounter/ClickCounter-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SRCROOT}";
 				INFOPLIST_FILE = "ClickCounter/ClickCounter-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.lebayle.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 
 #import "LaunchAtLoginController.h"
-#import "UserDefaultsWrapper.h"
+#import "class/UserDefaultsWrapper.h"
 
 @interface AppDelegate ()
                                         // Private methods
@@ -76,12 +76,8 @@ PreferencesWindowController* m_Pwc;
                                                    [self onKeyDown:incomingEvent];
                                                }];
 
-    
-
                                         // Init interface
     [self updateValues];
-    
-                                        // DEBUG
 }
 
 
@@ -194,11 +190,7 @@ PreferencesWindowController* m_Pwc;
     [_theMenuLeftClickCounter setTitle:leftTitle];
     [_theMenuRightClickCounter setTitle:rightTitle];
 
-    NSLog(@"AppDelegate: %d", (m_Pwc != nil));
-
     [m_Pwc updatePreferencesValues];
-    
 }
-
 
 @end
